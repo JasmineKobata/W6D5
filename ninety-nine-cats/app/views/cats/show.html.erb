@@ -1,0 +1,13 @@
+<h1>Here is the cat info page!</h1>
+
+<a href="<%= edit_cat_url(@cat) %>">Edit Cat Info</a>
+
+<a href="<%= cats_url%>"> Back to the homepage</a>
+
+<ul>
+    <li><%= @cat.name %></li>
+    <li><%= @cat.birth_date %></li>
+    <li><%= @cat.color %></li>
+    <li><%= @cat.sex %></li>
+    <li><%= @cat.description %></li>
+</ul>
